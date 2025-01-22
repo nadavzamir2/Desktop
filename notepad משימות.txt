@@ -1,0 +1,3 @@
+txt = "ddar astronaut. pldase, stop drasing md!"
+first = txt[0]
+last = txt[1:]

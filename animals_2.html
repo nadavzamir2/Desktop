@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid black;
+            background-color: #c20e59;
+        }
+        body {
+            border: 1px solid black;
+            display: flexbox;
+            background-color: #c20e59;
+            height: 100%;
+        }            
+            
+
+        .menu {
+           width: 250px;
+            border: 1px solid black;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .main-content {
+            justify-content: center;
+            text-align: center;
+            margin: 8px;     
+            padding: 5px;  
+                
+        }
+        .link {
+            margin: 8px;     
+            padding: 5px;
+            
+        }
+                  
+        .flex-container {
+            display: flex;
+            width: 100%;
+        }
+        p {
+            margin-bottom: 40px;
+        }
+        footer {
+            border: 1px solid black;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            bottom: 0;
+        }
+        .main-content {
+             margin-bottom: 70px;
+        }
+    </style>
+</head>
+<div>
+    <header> 
+        <h1>Animal Store</h1>
+    </header>
+    
+    
+</div>
+
+<div>
+    <body>
+        <div class="flex-container">
+            <div class="menu">
+                <div class="link" style="color: green;font-weight: bold;" > <link rel="stylesheet" href="#">Home</div>
+                <div class="link"><link rel="stylesheet" href="animals_22.html">Animals</div>
+                <div class="link"> <link rel="stylesheet" href="#">Contact us</div>
+            </div>
+            <div class="main-content">
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsum aspernatur perferendis. Voluptatum soluta cupiditate, tempora repellendus tenetur reprehenderit rem incidunt unde quod dolor perferendis? Ut laboriosam dolorum ipsa hic!</p>
+                <div><img src="data:image/webp;base64,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" alt=""></div>
+            </div>
+        </div>
+        
+    </body>
+
+    <footer> all rights reserved to yuval</footer>
+</div>
+
+</html>
